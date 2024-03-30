@@ -1,0 +1,26 @@
+
+.container {
+  position: relative;
+
+}
+
+.container #map {
+  height: 685px;
+  width: 100%;
+  z-index: 1;
+}
+
+.container #refreshButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.container #simplifyButton {
+  position: absolute;
+  z-index: 0;
+  /* background-color: #abab8c; */
+}
